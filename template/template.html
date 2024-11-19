@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{title}}</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
 
@@ -32,9 +32,12 @@
 
 <!-- 主内容区域 -->
 <main>
-    <section id="content">
-        <!-- 动态插入的内容 -->
-    </section>
+    <div>
+        <section id="content">
+            <!-- 动态插入的内容 -->
+        </section>
+    </div>
+
     <!-- Markdown 内容展示容器 -->
     <div id="markdown-container"></div>
 
@@ -59,11 +62,13 @@
 </div>
 
 <!-- 使用 jsDelivr CDN 引入 markdown-it -->
-<script src="https://npmmirror.com/npm/markdown-it@12.3.0/dist/markdown-it.min.js"></script>
-<script src="script.js"></script>
-<script src="dynamic-content.js"></script>
-<script src="theme-switch.js"></script>
-<script src="markdown-parser.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/markdown-it@12.3.0/dist/markdown-it.min.js"></script>
+<script src="scripts/markdown-parser.js"></script>
+<script src="scripts/script.js"></script>
+<script src="scripts/dynamic-content.js"></script>
+<script src="scripts/theme-switch.js"></script>
+
 
 </body>
 </html>

@@ -17,7 +17,7 @@ function loadMarkdownContent(url) {
 // 示例：加载指定的 Markdown 文件
 document.addEventListener("DOMContentLoaded", function() {
     const url = new URL(window.location.href);  // 获取当前页面的 URL
-    const markdownFile = url.searchParams.get("file");  // 获取 URL 中的 "file" 参数
+    const markdownFile = url.searchParams.get("file") || "./example.md"; // 默认文件路径;  // 获取 URL 中的 "file" 参数
 
     if (markdownFile) {
         loadMarkdownContent(markdownFile);  // 加载 URL 中指定的 Markdown 文件
