@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- 顶部导航栏 -->
+<header>
+    <nav class="navbar" id="navbar">
+        <div class="logo">
+            <a href="#">Logo</a>
+        </div>
+        <ul class="menu">
+            <li><a href="#">首页</a></li>
+            <li class="dropdown">
+                <a href="#">菜单</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">子菜单 1</a></li>
+                    <li><a href="#">子菜单 2</a></li>
+                    <li><a href="#">子菜单 3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">关于</a></li>
+            <li><a href="#">联系</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- 主内容区域 -->
+<main>
+    <section id="content">
+        <!-- 动态插入的内容 -->
+    </section>
+    <!-- Markdown 内容展示容器 -->
+    <div id="markdown-container"></div>
+
+</main>
+
+<!-- 底部导航栏 -->
+<footer>
+    <div class="footer-nav">
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">关于</a></li>
+            <li><a href="#">隐私政策</a></li>
+        </ul>
+    </div>
+</footer>
+
+<!-- 返回顶部按钮 -->
+<button class="back-to-top" onclick="scrollToTop()">返回顶部</button>
+<!-- 明暗模式切换按钮 -->
+<div id="theme-toggle-container">
+    <button id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
+</div>
+
+<!-- 使用 jsDelivr CDN 引入 markdown-it -->
+<script src="https://npmmirror.com/npm/markdown-it@12.3.0/dist/markdown-it.min.js"></script>
+<script src="script.js"></script>
+<script src="dynamic-content.js"></script>
+<script src="theme-switch.js"></script>
+<script src="markdown-parser.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,101 @@
+/* 全局样式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: url('./src/93285187_p0.jpg') no-repeat center center fixed; /* 设置背景图片 */
+    background-size: cover;
+}
+
+/* 顶部导航栏样式 */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px 20px;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #4a90e2;
+}
+
+/* 主内容样式 */
+.container {
+    max-width: 800px;
+    margin: 100px auto 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* 内容背景半透明 */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #4a90e2;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #4a90e2;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    font-size: 1.8em;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.features ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+.cta-button {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #357abf;
+}
+
+/* 底部导航栏样式 */
+.footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    margin-top: 20px;
+}
+
+.footer a {
+    color: #4a90e2;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

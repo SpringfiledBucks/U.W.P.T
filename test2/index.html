@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>现代网站</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- 顶部导航栏 -->
+<header>
+    <nav class="navbar" id="navbar">
+        <div class="logo">
+            <a href="#">Logo</a>
+        </div>
+        <ul class="menu">
+            <li><a href="#">首页</a></li>
+            <li class="dropdown">
+                <a href="#">菜单</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">子菜单 1</a></li>
+                    <li><a href="#">子菜单 2</a></li>
+                    <li><a href="#">子菜单 3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">关于</a></li>
+            <li><a href="#">联系</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- 主内容区域 -->
+<main>
+    <section>
+        <h1>欢迎来到我的网站</h1>
+        <p>这里是内容区域，可以嵌入图片或文件。</p>
+
+        <!-- 插入图片 -->
+        <img src="image.jpg" alt="示例图片" class="embedded-image">
+
+        <!-- 插入文件 -->
+        <a href="example.pdf" download class="download-link">点击下载文件</a>
+        <p><a href = "/template/example.md ">测试</a></p>
+
+    </section>
+</main>
+
+<!-- 底部导航栏 -->
+<footer>
+    <div class="footer-nav">
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">关于</a></li>
+            <li><a href="#">隐私政策</a></li>
+        </ul>
+    </div>
+</footer>
+
+<!-- 返回顶部按钮 -->
+<button class="back-to-top" onclick="scrollToTop()">返回顶部</button>
+
+<script src="script.js"></script>
+</body>
+</html>
