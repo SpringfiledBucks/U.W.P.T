@@ -17,7 +17,7 @@
     // 动态加载指定的 Markdown 文件
     document.addEventListener('DOMContentLoaded', () => {
         const params = new URLSearchParams(window.location.search);
-        const file = params.get('file') || './example.md'; // 默认文件路径
+        const file = params.get('file') || "./example.md"; // 默认文件路径
         loadMarkdown(file);
     });
 })();

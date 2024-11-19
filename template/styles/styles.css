@@ -8,7 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-image: url('src/93285187_p0.jpg'); /* 背景图 */
+    background-image: url('../../src/93285187_p0.jpg'); /* 背景图 */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
