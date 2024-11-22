@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{title}}</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="client-moreheet" href="styles/client-more.css">
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://example.com/rss.xml">
 </head>
 <body>
 
@@ -14,8 +16,13 @@
         <div class="logo">
             <a href="#">Logo</a>
         </div>
+        <div>
+            <a href="https://example.com/rss.xml" target="_blank">
+                <img src="rss-icon.png" alt="RSS订阅">
+            </a>
+        </div>
         <ul class="menu">
-            <li><a href="#">首页</a></li>
+            <li><a href="/template/example.md">首页</a></li>
             <li class="dropdown">
                 <a href="#">菜单</a>
                 <ul class="dropdown-menu">
@@ -24,7 +31,7 @@
                     <li><a href="#">子菜单 3</a></li>
                 </ul>
             </li>
-            <li><a href="#">关于</a></li>
+            <li><a href="/img-md/about.md">关于</a></li>
             <li><a href="#">联系</a></li>
         </ul>
     </nav>

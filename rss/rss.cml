@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>我的网站</title>
+    <link>https://example.com</link>
+    <description>这是我的网站的最新更新</description>
+    <language>zh-cn</language>
+
+    <item>
+      <title>新文章标题</title>
+      <link>https://example.com/new-article</link>
+      <description>文章的简短描述</description>
+      <pubDate>Thu, 22 Nov 2024 15:00:00 +0000</pubDate>
+    </item>
+
+    <!-- 可以继续添加更多的 <item> 标签来添加更多的文章 -->
+  </channel>
+</rss>
